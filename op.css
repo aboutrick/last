@@ -1,0 +1,220 @@
+#loading{
+    width: 100vw;
+    height: 100vh;
+    transition: all 3s;
+    background-color: #0bd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.spiner{
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+    background-color:#fff;
+    border-radius: 100%;
+    animation: sk-scaleout 1.5s infinite ease-in-out;
+}
+/*ローディングアニメーション*/
+@keyframes sk-scaleout{
+    0%{
+        transform: scale(0);
+    }50%{
+        transform: scale(1)}
+    100%{
+        transform: scale(3.0);
+        opacity: 0;
+    }
+}
+.txt{
+    top:0;
+    width:200px;
+    text-align: justify;
+    background-color: aquamarine;
+    font-size: large;
+}
+
+/*コンテンツ部分の装飾*/
+.garalley{
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+}
+img{
+    width:100%;
+    height:200px;
+    object-fit: cover;}
+
+.loaded{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+body{
+    background-color: pink;
+    width: 1450px;
+}
+
+.kan {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+}
+.kan.is-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 2s;
+}
+
+.kon {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+}
+.kon.is-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 2s;
+}
+
+.sou {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+}
+.sou.is-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 2s;
+}
+
+.sai {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+}
+.sai.is-active {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 2s;
+}
+
+.hannari{
+    font-family: "Sawarabi Gothic"; 
+    width: 1500px;
+    font-size: 20em;
+}
+
+.migi{
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+
+
+.box{
+    position: relative;
+}
+
+.kan0{
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    width: 1450px;
+    height: 850px;
+    top: 100px;
+    left: 60px;
+    z-index: 2;
+}
+
+.kan1{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    background-color: rgba(227, 55, 89, 0.3);
+    z-index: 1;
+}
+
+.kan2{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    background-color: rgba(100,149,237,0.7);
+    z-index: 1;
+}
+
+.kan3{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    background-color: rgba(72,61,139,0.7);
+    z-index: 1;
+}
+
+.kan4{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    background-color: rgba(0,100,0,0.7);
+    z-index: 1;
+}
+
+.kan{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    z-index: 2;
+    background-image: url(https://thumb.photo-ac.com/8e/8e998e9d9c27c0b268f935b6ddde7ade_w.jpeg);
+}
+
+.kon{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    z-index: 2;
+    background-image: url(https://thumb.photo-ac.com/5f/5fdffd0822296c7d6f7af4b347ac2030_w.jpeg);
+}
+
+.sou{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    z-index: 2;
+    background-image: url(https://thumb.photo-ac.com/a6/a64aedb54b3731740e934d0f6ddb16cb_w.jpeg);
+}
+
+.sai{
+    position: relative;
+    width: 1450px;
+    height: 850px;
+    z-index: 2;
+    background-image: url(https://thumb.photo-ac.com/cd/cd54f26d822af7cd93614732082efd7e_w.jpeg);
+}
+
+.toumei{
+    position: relative;
+    bottom: 150px;
+}
+
+.let{
+    text-align: right;
+    position: relative;
+    top: 100px;
+    font-size: 100px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+    a:link{
+        color:black
+    }
+    
+    a:visited{
+        color:black
+    }
+
+    a:hover{
+        color: rgb(70, 96, 226);
+        opacity: 0.5;
+        border-left: 10px outset black;
+    }

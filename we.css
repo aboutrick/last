@@ -1,0 +1,51 @@
+.center{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    width: 500px;
+    height: 350px;
+}
+
+.img1{
+    display: flex;
+    width: 300px;
+    height: 260px;
+}
+
+.zen{
+    background-image: url(https://thumb.photo-ac.com/14/14dc0749adce1490ec8f0dffeeddb5e3_t.jpeg);
+}
+
+.toi{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 1300px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.i{
+    display: flex;
+}
+
+.o{
+    display: flex;
+}
+
+.e{
+    margin: 100px;
+}
+
+.ai{
+    display: flex;
+}
+
+.kokoko{
+    margin-left: 800px;
+}
+
+.a{
+    background-color: chartreuse;
+    margin-right: 100px;
+}

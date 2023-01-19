@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color: pink;
+    height: 40px;
+}
+
+body{
+    text-align: center;
+}
+
+.maw{
+    float: left;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.ma{
+    margin-bottom: 400px;
+}
+
+.center{
+    text-align: center;
+}

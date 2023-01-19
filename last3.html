@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="jap">
+    <head>
+        <meta charset="UTF-8">
+        <title>お申込みフォーム</title>
+        <link rel="stylesheet" href="last3.css">
+    </head>
+    <body>
+        <h1 class="k">お申し込みフォーム</h1>
+        <div class="ao">
+            <p class="ak"></p>
+            <div class="form">
+                <form>
+                    <h3>名前</h3>
+                    <input name="name" type="text">
+                    
+                    <h3>フリガナ</h3>
+                    <input name="name" type="text">
+                    
+                    <h3>生年月日</h3>
+                    <input type="date" name="date">
+                    
+                    <h3>性別</h3>
+                    <input name="sei" type="radio" value="男">男
+                    <input name="sei" type="radio" value="女">女
+
+                    <h3>住所</h3>
+                    <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+                    <div class="h-adr">
+                        <span class="p-country-name" style="display:none;">Japan</span>
+                        郵便番号：<input type="text" class="p-postal-code" size="8" maxlength="8"><br>
+                        <p>都道府県：<input type="text" class="p-region"/><br>
+                        <p>市区町村：<input type="text" class="p-locality "/><br>
+                        <p>以降住所：<input type="text" class="p-street-address p-extended-address"></p>
+                    </div>
+
+                    <h3>電話番号</h3>
+                    <input type="tel" name="tel">
+
+                    <h3>メールアドレス</h3>
+                    <input type="email" name="email"></imput>
+                </form>
+
+                    <h3>ご利用のカテゴリ</h3>        
+                    <input name="kategori" type="radio" value="成人">成人式について
+                    <input name="kategori" type="radio" value="結婚">結婚式について
+                    <input name="kategori" type="radio" value="葬式">お葬式について
+                    <input name="kategori" type="radio" value="祭">祭礼について
+
+                    <h3>ご利用希望日</h3>
+                    <input type="date" name="date">
+
+                    <h3>キャンペーンメールについて</h3>
+                    <input name="キャン" type="radio" value="必要">必要
+                    <input name="キャン" type="radio" value="不要">不要
+
+                    <h3>その他ご要望</h3>
+                    <textarea name="comment" cols="60" rows="6"></textarea>
+            </div>
+        </div>
+
+        <p class="k"><a href="last6.html"><input name="submit" type="submit" value="送信"></a></p>
+
+    </body>
+</html>

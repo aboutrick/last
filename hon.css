@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    background-color: pink;
+    height: 40px;
+    width: 1500px;
+}
+
+.center{
+    text-align: center;
+    width: 1500px;
+}
+
+.img{
+    float: left;
+    width: 480px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.l{
+    margin-left: 150px;
+    display: flex;
+}
+
+.im{
+    min-width: 500px;
+    margin-left: 100px;
+    
+}

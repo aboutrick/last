@@ -1,0 +1,56 @@
+h2{
+    text-align: center;
+}
+
+.img1{
+    display: flex;
+    width: 200px;
+    z-index: 1;
+    margin-left: 350px;
+}
+
+.senz{
+    background-color: aqua;
+    margin-top: 50px;
+    width: 1500px;
+}
+
+.center{
+    text-align: center;
+    width: 1500px;
+}
+
+.se{
+    width:700px;
+    margin: auto;
+    position: relative;
+}
+
+.maw1{
+    width: 300px;
+    height: 80px;
+    background-color: burlywood;
+    text-align: right;
+    z-index: 2;
+    position: absolute;
+    top: 400px;
+    right: 30px;
+}
+
+.maw2{
+    width: 300px;
+    height: 80px;
+    background-color: burlywood;
+    text-align: right;
+    z-index: 2;
+    position:absolute;
+    top: 1100px;
+    right: 30px;
+}
+
+.ka{
+    text-align: right;
+    margin-right: 150px;
+    margin-left: 1000px;
+    background-color: burlywood;
+}

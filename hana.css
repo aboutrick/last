@@ -1,0 +1,40 @@
+body{
+    height: 1000px;
+}
+
+.h1{
+    background-color: crimson;
+    width: 1500px;
+}
+
+img{
+    width:300px;
+}
+
+.pic{
+    float: left;
+    margin-right: 100px;
+}
+
+.yohaku{
+    display: flex;
+    position: relative;
+    margin-bottom: 400px;
+    margin-left: 300px;
+}
+
+.maw{
+    position: relative;
+    top: 100px;
+    min-width: 500px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+
+.center{
+    width: 1500px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}

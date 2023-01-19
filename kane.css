@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    background-color: pink;
+    height: 40px;
+}
+
+.cent{
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+body{
+    text-align: center;
+}
+
+.yo{
+    position: relative;
+    left: 30px;
+    margin-bottom: 200px;
+}

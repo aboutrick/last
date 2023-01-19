@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: pink;
+    height: 40px;
+}
+
+img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.body{
+    margin-bottom: 200px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center1{
+    text-align: center;
+    background-color: aquamarine;
+    height: 30px;
+}
