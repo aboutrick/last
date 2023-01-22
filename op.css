@@ -1,5 +1,5 @@
 #loading{
-    width: 1450px;
+    width: 1535px;
     height: 2000px;
     transition: all 3s;
     background-color: #0bd;
@@ -9,8 +9,8 @@
     z-index: 9999;
 }
 .spiner{
-    width: 1450px;
-    height: 2000px;
+    width: 500px;
+    height: 500px;
     margin: 200px auto;
     background-color:#fff;
     border-radius: 100%;
